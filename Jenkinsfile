@@ -26,11 +26,11 @@ pipeline {
           sh 'docker-compose up -d --build'
       }
     }
-    stage('Cleaning after images') {
-      steps{
-          sh 'docker-compose down'
-          sh 'docker rm -f $(docker ps -aq)'
-      }
+    // stage('Cleaning after images') {
+    //   steps{
+    //       sh 'docker-compose down'
+    //       sh 'docker rm -f $(docker ps -aq)'
+    //   }
     }
     // stage('Deploy Image') {
     //   steps{
