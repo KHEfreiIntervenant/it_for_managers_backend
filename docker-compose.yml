@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-  sample:
+  sample2:
     container_name: sample-react-app-backend
     build:
       context: .
@@ -11,5 +11,3 @@ services:
       - '/app/node_modules'
     ports:
       - "127.0.0.1:8083:8083"
-    environment:
-      - CHOKIDAR_USEPOLLING=true
