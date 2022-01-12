@@ -31,7 +31,7 @@ pipeline {
     //       sh 'docker-compose down'
     //       sh 'docker rm -f $(docker ps -aq)'
     //   }
-    }
+    // }
     // stage('Deploy Image') {
     //   steps{
     //     script {
