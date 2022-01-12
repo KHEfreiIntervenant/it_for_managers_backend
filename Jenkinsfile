@@ -21,11 +21,11 @@ pipeline {
         // }
       }
     }
-    stage('Running image') {
-      steps{
-          sh 'docker-compose up -d --build'
-      }
-    }
+    // stage('Running image') {
+    //   steps{
+    //       sh 'docker-compose up -d --build'
+    //   }
+    // }
     // stage('Cleaning after images') {
     //   steps{
     //       sh 'docker-compose down'
